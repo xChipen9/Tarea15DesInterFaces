@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 60em; 
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    gap: 1em;
+}
+
+.col1 {
+    width: 16em;
+}
+
+.col2 {
+    flex: 1;
+}
+
+ul#contenido-libro {
+    column-count: 3; 
+    column-gap: 1em;
+}
